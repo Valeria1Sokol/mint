@@ -120,7 +120,7 @@ li {
     box-shadow: 0 0 31px grey;
     align-items: center;
     height: 9vw;
-    width: 22vw;
+    width: 24vw;
     border-radius: 38px;
     background-color: white;
     justify-content: center;
@@ -214,21 +214,19 @@ li {
     flex-direction: column;
     box-shadow: 0 0 31px grey;
     justify-content: center;
+    align-items: center;
     height: 9vw;
-    width: 22vw;
+    width: 24vw;
     border-radius: 38px;
     background-color: white;
     margin: 5vw 2vw;
-    padding: 0 0 1vw 2.3vw;
-}
-.left .top .text {
-    padding: 0 0 1vw 2.6vw;
 }
 
 .left .top .text p {
     color: #cdcdcd;
     font-size: 30px;
     padding-top: 0.5vw;
+    text-align: center;
 }
 
 .left .top .text p span {
@@ -255,7 +253,7 @@ li {
 }
 
 .left .bottom span img {
-    width: 8vw;
+    width: 7vw;
     position: relative;
     top: 13px;
 }
@@ -264,6 +262,7 @@ li {
     color: #cdcdcd;
     font-size: 30px;
     padding-top: 0.5vw;
+    text-align: center;
 }
 
 .left .leftTopImg {
@@ -317,7 +316,7 @@ li {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding: 9vw 0 12vw;
+    padding: 9vw 0vw;
     justify-content: space-between;
 }
 
@@ -455,23 +454,6 @@ li {
     width: 4vw;
 }
 
-.line {
-    width: 100%;
-    border-top: 10px solid #a3a3a3;
-    height: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.line h3 {
-    font-size: 1.2vw;
-    position: absolute;
-    background-color: white;
-    padding: 1.7vw 2vw 2vw;
-    color: #a3a3a3;
-    font-family: 'AvenirNextCyr-UltraLight';
-}
 
 .pageThree {
     width: 100%;
@@ -479,7 +461,6 @@ li {
     background-image: url(../img/7.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 10vw;
     padding: 13vw 0;
     font-family: 'AvenirNextCyr-UltraLight';
     font-weight: normal;

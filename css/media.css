@@ -2,24 +2,20 @@
     .left .text,
     .right .text {
         height: 10vw;
-        width: 24vw;
+    width: 28vw;
     }
     .left h3, .right h3 {
     
-    font-size: 36px;
+        font-size: 1.9vw;
 }
     .left .top span img {
     width: 8vw;
 }
-    .left .bottom span img {
-    width: 9vw;
-    position: relative;
-    top: 14px;
-}
+
 
     .left .bottom .text p, .left .top .text p, .right .top .text p, .right .bottom .text p, .right .bottom .text span {
 
-    font-size: 25px;
+        font-size: 1.4vw;
     padding-top: 0.8vw;
 }
     .topImg {
@@ -30,46 +26,38 @@
 }
 
 @media (max-width:1600px) {
+    .left .text, .right .text {
+    height: 11vw;
+    width: 27vw;
+}
     .left .bottom .text p, .left .top .text p, .right .top .text p, .right .bottom .text p, .right .bottom .text span {
-    font-size: 17px;
+    font-size: 1.3vw
 }
     .left .top span img {
-        width: 6vw;
+        width: 8vw;
         position: relative;
-        top: 6px;
     }
     .left .bottom span img {
-        width: 7vw;
-        position: relative;
-        top: 10px;
+        width: 9vw;
     }
     .topImg {
-        margin-top: 5vw;
-        width: 266px;
-        height: 78px;
+        margin-top: 6vw;
+        width: 17vw;
+        height: 5vw;
     }
     .cloud {
         position: absolute;
         width: 13vw;
     }
-    .left h3,
-    .right h3 {
-        font-size: 26px;
-    }
-    .left .text {
-        padding: 0 0 1vw 2.6vw;
-    }
-    .left .top .text {
-        padding: 0 0 1vw 3.6vw;
-    }
+
     .left .bottom .text p {
-        color: #cdcdcd;
-        font-size: 17px;
-        padding-top: 0.5vw;
+    color: #cdcdcd;
+    font-size: 1.3vw;
+    padding-top: 0.5vw;
     }
     .left .top .text p {
         color: #cdcdcd;
-        font-size: 17px;
+        font-size: 1.3vw;
         padding-top: 0.5vw;
     }
 }
@@ -103,12 +91,10 @@
     }
     .left .text,
     .right .text {
-        width: 25vw;
+        width: 28vw;
         height: 11vw;
     }
-    .left .text {
-        padding: 0 0 1vw 3vw;
-    }
+   
     .left .top span img {
         width: 7vw;
         position: relative;
@@ -232,8 +218,7 @@
         font-size: 13px;
     }
     .topImg {
-        width: 216px;
-        height: 63px;
+            width: 20vw;
     }
     .left .top span img {
         width: 8vw;
@@ -356,7 +341,7 @@
     }
     .right .bottom .text pre {
         color: #666;
-        font-size: 14px;
+        font-size: 21px;
         text-align: center;
         padding: 5px 0 0;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -406,11 +391,8 @@
         flex-direction: column;
         justify-content: center;
         margin: 0px 0 2vw;
-        padding: 0 0 2vw 8vw;
     }
-    .left .top .text {
-        padding: 0 0 2vw 8.6vw;
-    }
+   
     .left .top .text p {
         padding-top: 1.5vw;
     }
@@ -437,7 +419,7 @@
         font-size: 20px;
     }
     .topImg {
-        margin-top: 10.7vw;
+        margin-top: 12.7vw;
         width: 265px;
         height: 75px;
     }
@@ -448,7 +430,7 @@
     }
     .pageTwo {
         background-image: none;
-        padding: 20vw 0 0;
+        padding: 14vw 0 0;
         opacity: 1;
         height: fit-content;
     }
@@ -600,9 +582,7 @@
         width: 250px;
         height: 500px;
     }
-    .left .top .text {
-        padding: 0 0 2vw 10.6vw;
-    }
+   
     .left .bottom .text p {
         padding: 1vw 0 0vw 0vw;
     }
@@ -641,9 +621,7 @@
         position: relative;
         top: 8px;
     }
-    .left .text {
-        padding: 0 0 2vw 10vw;
-    }
+   
     .left .bottom .text span img {
         width: 25vw;
         position: relative;
@@ -684,25 +662,16 @@
         width: 235px;
         height: 60px;
     }
-    .left .top .text {
-        padding: 0 0 3vw 12.6vw;
-    }
-    .left .text {
-        padding: 0 0 2vw 10vw;
-    }
+  
     .pageOne h3 {
         font-size: 23px;
     }
-    .left .text {
-    padding: 0 0 2vw 14vw;
-}
+
    
 }
 
 @media (max-width:320px) {
-    .left .top .text {
-    padding: 0 0 3vw 12.6vw;
-}
+
     .leftFoter .getApp {
         opacity: 0;
         width: 35vw;
