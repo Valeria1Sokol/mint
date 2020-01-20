@@ -15,6 +15,7 @@
              //             animate for phone on mobile
              $('.center').addClass('fadeInPhone1');
              $('.imgTextFirst').addClass('fadeInPhone');
+             $('.phoneDes').addClass('fadeInPhone');
          };
          setTimeout(animate3(), 0);
          $(window).scroll(function () {
@@ -23,10 +24,11 @@
                  if ($(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) && $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)) {
                      //                     animate fot rectangle on mobile
                      function animate4() {
-                         $('.left .top').addClass('fadeInRightTop');
-                         $('.right .top').addClass('fadeInLeftTop');
-                         $('.right .bottom').addClass('fadeInLeftBottom');
-                         $('.left .bottom').addClass('fadeInRightBottom');
+                          $('.left .bottom').addClass('fadeInRightTop');
+                         $('.left .top').addClass('fadeInLeftTop');
+                         $('.right .top').addClass('fadeInLeftBottom');
+                         $('.right .bottom').addClass('fadeInRightBottom');
+                        
                      }
                      setTimeout(animate4(), 0);
                  }
@@ -38,13 +40,22 @@
                  if ($(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) && $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)) {
                      //    animate fot third page for mobile                 
                      function animate4() {
-                         $('.pageTwo .text').addClass('fadeInOne');
+                         $('.pageTwo .pageTwo_P').addClass('fadeInOne');
                          $('.cloud').addClass('fadeInTwo');
                          $('.pageTwo input').addClass('fadeInTwo');
                          $('.pageTwo span').addClass('fadeInTwo');
-                         $('.iconBox1').addClass('fadeInIconBox1');
-                         $('.iconBox2').addClass('fadeInIconBox2');
-                         $('.iconBox3').addClass('fadeInIconBox3');
+                         $('.iconBox').addClass('fadeInIconBox1');
+                         $('.Icon11').addClass('fadeInIconBox1');
+                     $('.Icon21').addClass('fadeInIconBox1');
+                     $('.Icon31').addClass('fadeInIconBox1');
+                     $('.Icon41').addClass('fadeInIconBox1');
+                     $('.Icon51').addClass('fadeInIconBox1');
+                     $('.Icon6').addClass('fadeInIconBox1');
+                     $('.Icon52').addClass('fadeInIconBox1');
+                     $('.Icon42').addClass('fadeInIconBox1');
+                     $('.Icon32').addClass('fadeInIconBox1');
+                     $('.Icon22').addClass('fadeInIconBox1');
+                     $('.Icon12').addClass('fadeInIconBox1');
                          //                             
                      }
                      setTimeout(animate4(), 0);
@@ -70,7 +81,7 @@
          }).trigger('scroll');
      }
      $(window).scroll(function () {
-         $('.pageTwo .textImg').each(function (index, value) {
+         $('.pageTwo .pageTwo_P').each(function (index, value) {
              // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
              if ($(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) && $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)) {
                  function animate1() {
