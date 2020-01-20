@@ -110,13 +110,17 @@ li {
     margin: 3vw 0 5vw;
 }
 
-.pageOne_P span {
+.p_gradient {
     background: linear-gradient(65deg, #0298f2 10%, #12c4d6 30%, #12c4d6 60%);
     -webkit-background-clip: text;
     background-clip: text;
+/*
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
+*/
     color: #0298f2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
 }
 
 .right {
